@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>seguridad física</title>
+    </head>
+    <body>
+      <h1>seguridad física</h1>
+      <img src="seguridadfisica.jpeg">
+      <h2>INDICE</h2>
+      <ol>
+      <a href="#1"><li>Seguridad física</a>
+      <a href="#2"><li>Protección del hardware</li></a>
+      <a href="#3"><li>Protección de los datos</li></a>
+      </ol>
+      <h2 id="1">Seguridad física</h2>
+      <p>Cuando hablamos de seguridad física nos referimos a todos aquellos mecanismos --generalmente de prevención y detección-- destinados a proteger físicamente cualquier recurso del sistema; estos recursos son desde un simple teclado hasta una cinta de backup con toda la información que hay en el sistema, pasando por la propia CPU de la máquina.</p>
+      <p>Dependiendo del entorno y los sistemas a proteger esta seguridad será más o menos importante y restrictiva, aunque siempre deberemos tenerla en cuenta.</p>
+      <p>A continuación mencionaremos algunos de los problemas de seguridad física con los que nos podemos enfrentar y las medidas que podemos tomar para evitarlos o al menos minimizar su impacto.</p>
+      <h2 id="2">Protección del hardware</h2>
+      <p>El hardware es frecuentemente el elemento más caro de todo sistema informático y por tanto las medidas encaminadas a asegurar su integridad son una parte importante de la seguridad física de cualquier organización.</p>
+      <p>Problemas a los que nos enfrentamos:</p>
+      <ul>
+        <li><h3>Acceso físico</h3></li>
+        <li><h3>Desastres naturales</h3></li>
+        <li><h3>Alteraciones del entorno</h3></li>
+      </ul>
+      <h3>Acceso físico</h3>
+      <p>Si alguien que desee atacar un sistema tiene acceso físico al mismo todo el resto de medidas de seguridad implantadas se convierten en inútiles.</p>
+      <p>De hecho, muchos ataques son entonces triviales, como por ejemplo los de denegación de servicio; si apagamos una máquina que proporciona un servicio es evidente que nadie podrá utilizarlo.</p>
+      <p>Otros ataques se simplifican enormemente, p. ej. si deseamos obtener datos podemos copiar los ficheros o robar directamente los discos que los contienen.</p>
+      <p>Incluso dependiendo el grado de vulnerabilidad del sistema es posible tomar el control total del mismo, por ejemplo reiniciándolo con un disco de recuperación que nos permita cambiar las claves de los usuarios.</p>
+      <p>Este último tipo de ataque es un ejemplo claro de que la seguridad de todos los equipos es importante, generalmente si se controla el PC de un usuario autorizado de la red es mucho más sencillo atacar otros equipos de la misma.</p>
+      <p>Para evitar todo este tipo de problemas deberemos implantar mecanismos de prevención (control de acceso a los recursos) y de detección (si un mecanismo de prevención falla o no existe debemos al menos detectar los accesos no autorizados cuanto antes).</p>
+      <h3>Desastres naturales</h3>
+      <p>Además de los posibles problemas causados por ataques realizados por personas, es importante tener en cuenta que también los desastres naturales pueden tener muy graves consecuencias, sobre todo si no los contemplamos en nuestra política de seguridad y su implantación.</p>
+      <p>Algunos desastres naturales a tener en cuenta:</p>
+      <ul>
+      <li><h3>Terremotos y vibraciones</h3></li>
+      <li><h3>Tormentas eléctricas</h3></li>
+      <li><h3>Incendios y humos</h3></li>
+      </ul>
+      <p>Los terremotos son el desastre natural menos probable en la mayoría de organismos ubicados en España, por lo que no se harán grandes inversiones en prevenirlos, aunque hay varias cosas que se pueden hacer sin un desembolso elevado y que son útiles para prevenir problemas causados por pequeñas vibraciones:</p>
+      <ul>
+      <li>No situar equipos en sitios altos para evitar caídas,</li>
+      <li>No colocar elementos móviles sobre los equipos para evitar que caigan sobre ellos,</li>
+      <li>Separar los equipos de las ventanas para evitar que caigan por ellas o qué objetos lanzados desde el exterior los dañen,</li>
+      <li>Utilizar fijaciones para elementos críticos,</li>
+      <li>Colocar los equipos sobre plataformas de goma para que esta absorba las vibraciones,</li>
+      </ul>
+      <p>Otro desastre natural importante son las tormentas con aparato eléctrico, especialmente frecuentes en verano, que generan subidas súbitas de tensión muy superiores a las que pueda generar un problema en la red eléctrica. A parte de la protección mediante el uso de pararrayos, la única solución a este tipo de problemas es desconectar los equipos antes de una tormenta (qué por fortuna suelen ser fácilmente predecibles).</p>
+      <p>En entornos normales es recomendable que haya un cierto grado de humedad, ya que en si el ambiente es extremadamente seco hay mucha electricidad estática. No obstante, tampoco interesa tener un nivel de humedad demasiadoa elevado, ya que puede producirse condensación en los circuitos integrados que den origen a un cortocircuito. En general no es necesario emplear ningún tipo de aparato para controlar la humedad, pero no está de más disponer de alarmas que nos avisen cuando haya niveles anómalos.</p>
+      <p>Otro tema distinto son las inundaciones, ya que casi cualquier medio (máquinas, cintas, routers ...) que entre en contacto con el agua queda automáticamente inutilizado, bien por el propio líquido o bien por los cortocircuitos que genera en los sistemas electrónicos. Contra ellas podemos instalar sistemas de detección que apaguen los sistemas si se detecta agua y corten la corriente en cuanto estén apagados. Hay que indicar que los equipos deben estar por encima del sistema de detección de agua, sino cuando se intente parar ya estará mojado.</p>
+      <p>Por último mencionaremos el fuego y los humos, que en general provendrán del incendio de equipos por sobrecarga eléctrica. Contra ellos emplearemos sistemas de extinción, que aunque pueden dañar los equipos que apaguemos (aunque actualmente son más o menos inocuos), nos evitarán males mayores. Además del fuego, también el humo es perjudicial para los equipos (incluso el del tabaco), al ser un abrasivo que ataca a todos los componentes, por lo que es recomendable mantenerlo lo más alejado posible de los equipos.</p>
+      <h3>Alteraciones del entorno</h3>
+      <p>En nuestro entorno de trabajo hay factores que pueden sufrir variaciones que afecten a nuestros sistemas que tendremos que conocer e intentar controlar.</p>
+      <p>Deberemos contemplar problemas que pueden afectar el régimen de funcionamiento habitual de las máquinas como la alimentación eléctrica, el ruido eléctrico producido por los equipos o los cambios bruscos de temperatura.</p>
+      <h4>Electricidad</h4>
+      <p>Quizás los problemas derivados del entorno de trabajo más frecuentes son los relacionados con el sistema eléctrico que alimenta nuestros equipos; cortocircuitos, picos de tensión, cortes de flujo ...</p>
+      <p>Para corregir los problemas con las subidas de tensión podremos instalar tomas de tierra o filtros reguladores de tensión.</p>
+      <p>Para los cortes podemos emplear Sistemas de Alimentación Ininterrumpida (SAI), que además de proteger ante cortes mantienen el flujo de corriente constante, evitando las subidas y bajadas de tensión. Estos equipos disponen de baterias que permiten mantener varios minutos los aparatos conectados a ellos, permitiendo que los sistemas se apaguen de forma ordenada (generalmente disponen de algún mecanísmo para comunicarse con los servidores y avisarlos de que ha caido la línea o de que se ha restaurado después de una caida).</p>
+      <p>Por último indicar que además de los problemas del sistema eléctrico también debemos preocuparnos de la corriente estática, que puede dañar los equipos. Para evitar problemas se pueden emplear esprais antiestáticos o ionizadores y tener cuidado de no tocar componentes metálicos, evitar que el ambiente esté excesivamente seco, etc.</p>
+      <h4>Ruido eléctrico</h4>
+      <p>El ruido eléctrico suele ser generado por motores o por maquinaria pesada, pero también puede serlo por otros ordenadores o por multitud de aparatos, y se transmite a través del espacio o de líneas eléctricas cercanas a nuestra instalación.</p>
+      <p>Para prevenir los problemas que puede causar el ruido eléctrico lo más barato es intentar no situar el hardware cerca de los elementos que pueden causar el ruido. En caso de que fuese necesario hacerlo siempre podemos instalar filtos o apantallar las cajas de los equipos. </p>
+      <h4>Temperaturas extremas</h4>
+      <p>No hace falta ser un genio para comprender que las temperaturas extremas, ya sea un calor excesivo o un frio intenso, perjudican gravemente a todos los equipos. En general es recomendable que los equipos operen entre 10 y 32 grados Celsius. Para controlar la temperatura emplearemos aparatos de aire acondicionado.</p>
+      <h2 id="3">Protección de los datos</h2>
+      <p>Además proteger el hardware nuestra política de seguridad debe incluir medidas de protección de los datos, ya que en realidad la mayoría de ataques tienen como objetivo la obtención de información, no la destrucción del medio físico que la contiene.</p>
+      <p>En los puntos siguientes mencionaremos los problemas de seguridad que afectan a la transmisión y almacenamiento de datos, proponiendo medidas para reducir el riesgo.</p>
+      <h3>Eavesdropping</h3>
+      <p>La interceptación o eavesdropping, también conocida por ''passive wiretapping'' es un proceso mediante el cual un agente capta información que va dirigida a él; esta captación puede realizarse por muchísimos medios: sniffing en redes ethernet o inalámbricas (un dispositivo se pone en modo promiscuo y analiza todo el tráfico que pasa por la red), capturando radiaciones electromagnéticas (muy caro, pero permite detectar teclas pulsadas, contenidos de pantallas, ...), etc.</p>
+      <p>El problema de este tipo de ataque es que en principio es completamente pasivo y en general difícil de detectar mientras se produce, de forma que un atacante puede capturar información privilegiada y claves que puede emplear para atacar de modo activo.</p>
+      <p>Para evitar que funcionen los sniffer existen diversas soluciones, aunque al final la única realmente útil es cifrar toda la información que viaja por la red (sea a través de cables o por el aire). En principio para conseguir esto se deberían emplear versiones seguras de los protocolos de uso común, siempre y cuando queramos proteger la información. Hoy en día casi todos los protocolos basados en TCP permiten usar una versión cifrada mendiante el uso del TLS.</p>
+      <h3>Copias de seguridad</h3>
+      <p>Es evidente que es necesario establecer una política adecuada de copias de seguridad en cualquier organización; al igual que sucede con el resto de equipos y sistemas, los medios donde residen estas copias tendrán que estar protegidos físicamente; de hecho quizás deberíamos de emplear medidas más fuertes, ya que en realidad es fácil que en una sola cinta haya copias de la información contenida en varios servidores.</p>
+      <p>Lo primero que debemos pensar es dónde se almacenan los dispositivos donde se realizan las copias. Un error muy habitual es almacenarlos en lugares muy cercanos a la sala de operaciones, cuando no en la misma sala; esto, que en principio puede parecer correcto (y cómodo si necesitamos restaurar unos archivos) puede convertirse en un problema serio si se produce cualquier tipo de desastre (como p. ej. un incendio). Hay que pensar que en general el hardware se puede volver a comprar, pero una pérdida de información puede ser ireemplazable.</p>
+      <p>Así pues, lo más recomendable es guardar las copias en una zona alejada de la sala de operaciones; lo que se suele recomendar es disponer de varios niveles de copia, una que se almacena en una caja de seguridad en un lugar alejado y que se renueva con una periodicidad alta y otras de uso frecuente que se almacenan en lugares más próximos (aunque a poder ser lejos de la sala donde se encuentran los equipos copiados).</p>
+      <p>Para proteger más aun la información copiada se pueden emplear mecanísmos de cifrado, de modo que la copia que guardamos no sirva de nada si no disponemos de la clave para recuperar los datos almacenados.</p>
+      <h3>Soportes no electrónicos</h3>
+      <p>Otro elemento importante en la protección de la información son los elementos no electrónicos que se emplean para transmitirla, fundamentalmente el papel. Es importante que en las organizaciones que se maneje información confidencial se controlen los sistemas que permiten exportarla tanto en formato electrónico como en no electrónico (impresoras, plotters, faxes, teletipos, ...).</p>
+      <p>Cualquier dispositivo por el que pueda salir información de nuestro sistema ha de estar situado en un lugar de acceso restringido; también es conveniente que sea de acceso restringido el lugar donde los usuarios recogen los documentos que lanzan a estos dispositivos.  </p>
+      <p>Además de esto es recomendable disponer de trituradoras de papel para destruir todos los papeles o documentos que se quieran destruir, ya que evitaremos que un posible atacante pueda obtener información rebuscando en nuestra basura.</p>
+
+
+
+
+
+      
+
+    </body>
+</html>

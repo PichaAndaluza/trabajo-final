@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>seguridad de la red</title>
+    </head>
+    <body>
+    <h1>seguridad de la red</h1>
+    <img src="seguridadred.jpeg">
+    <h2>INDICE</h2>
+    <ol>
+    <a href="#1"><li>¿Qué es la seguridad de la red?</li></a>
+    <a href="#2"><li>¿Cómo funciona la seguridad de la red?</li></a>
+    <a href="#3"><li>Tipos de seguridad de la red</li></a>
+    </ol>
+    <h2 id="1">¿Qué es la seguridad de la red?</h2>
+    <p>La seguridad de la red es toda aquella actividad, proceso, tecnología o política que busca proteger los recursos digitales de un individuo u organización de amenazas a su confidencialidad y disponibilidad.</p>
+    <p>Su principal objetivo es evitar que ataques maliciosos logren acceder a redes internas de ordenadores u otros dispositivos, protegiendo así los datos, sistemas y dispositivos donde estos se almacenan. Esto asegura que la información que entra y sale de los dispositivos, se conserve solo entre ellos y sus destinatarios, permaneciendo confidenciales y alejados de terceros.</p>
+    <p>Las principales razones por las que un hacker podría atacar son: robo de información o identidad, manipulación de datos e interrupción del servicio.</p>
+    <h3>Diferencias entre seguridad de red y ciberseguridad</h3>
+    <p>La seguridad de red podría considerarse un subtipo de ciberseguridad que se ocupa particularmente de la seguridad del perímetro digital de una organización, podríamos decir que es la que se ocupa por la seguridad dentro de los muros de una fortaleza.</p>
+    <p>Dentro de los muros encontramos la infraestructura TI (Tecnología de la Información) de una empresa, es decir, el software, el hardware, almacenamiento de datos y componentes de red de cada uno de los usuarios y dispositivos.</p>
+    <h2 id="2">¿Cómo funciona la seguridad de la red?</h2>
+    <p>La seguridad de red se basa en realizar procesos de autenticación de los usuarios que desean acceder a una red o dispositivo, para luego otorgarles las autorizaciones de acceso necesarias. Además, se encarga de bloquear a los usuarios maliciosos con la ayuda de sus capas de defensa.</p>
+    <h3>Aspectos básicos de la seguridad de redes</h3>
+    <p>Existen algunos conceptos fundamentales que, aplicados correctamente, crean una red segura:</p>
+    <h4>Control de acceso</h4>
+    <p>Todos hemos utilizado una contraseña para iniciar sesión en un equipo, red o aplicación, a esto lo llamamos control de acceso. Se divide en cuatro partes: identificación, autenticación, autorización y responsabilidad (IAAR).</p>
+    <p>El sistema inicia confirmando la identidad del usuario a través de un identificador único como su ID (abreviatura del inglés «Identification»), nombre de usuario o número de cuenta. Después, autentifica la identidad mediante la verificación de las credenciales del ID y la contraseña para luego concederle la autorización y acceder. Y por último, la responsabilidad, que consta de hacer un seguimiento de la actividad del usuario para que se hagan responsables de sus acciones en un sistema.</p>
+    <h4>Segmentación de la red</h4>
+    <p>Se encarga de separar una red en partes lógicas más pequeñas para que se puedan agregar controles entre ellas, favoreciendo el rendimiento y la seguridad. </p>
+    <p>Un método común de segmentación de la red son las redes de área local virtual (VLAN o Virtual Local Area Network) y cuando son utilizadas para una infraestructura en la nube, se denominan nubes privadas virtuales (VPC o Virtual Private Cloud).</p>
+    <h4>Seguridad perimetral</h4>
+    <p>Las redes tradicionales cumplen sus funciones en un datacenter físico con un perímetro definido conectado con el mundo exterior. Es fundamental que cuando se define un perímetro, se determinen qué datos, voz y vídeo pueden pasar para configurar los mecanismos de control de acuerdo a ellos.</p>
+    <p>Por ejemplo, están los firewalls (FW), el sistema de detección de intrusiones (IDS o Intrusion Detection System) y el sistema de prevención de intrusiones (IPS o Intrusion Prevention System).</p>
+    <h4>Cifrado de datos</h4>
+    <p>La confidencialidad y la integridad están garantizadas con el cifrado de datos, ya que los datos en tránsito o en reposo se cifran y utilizan una clave. Existen dos tipos esenciales de cifrado: la encripción simétrica y la asimétrica.</p>
+    <p>La simétrica consta de una única clave que se comparte entre el remitente y el receptor, siendo descifrada en menor tiempo que la asimétrica, la cual emplea dos claves, una pública y una privada para descifrar la información, haciéndola menos vulnerable.</p>
+    <p>En trámites bancarios necesitamos que el ingreso de la sesión sea confidencial, por lo que se usa un cifrado simétrico y para asegurar la autenticidad de la página web, se emplea un cifrado asimétrico para que se intercambie de manera segura las claves del cifrado simétrico de esa sesión.</p>
+    <h2  id="3">Tipos de seguridad de la red</h2>
+    <p>Existen diversos tipos de soluciones de seguridad de red, cada una de las cuales tiene sus ventajas, desventajas y objetivos. Después de examinar las necesidades de tu empresa mediante estrategias como el pentesting de redes, puedes determinar qué tipo de seguridad de red es ideal para ti.</p>
+    <h3>Firewalls</h3>
+    <p>Los firewalls son programas de software o dispositivos de hardware que impide a usuarios no autorizados ingresar a tu red, filtrando el tráfico sospechoso y permitiendo únicamente el legítimo.</p>
+    <p>Existen diferentes tipos de firewall de acuerdo a su nivel de seguridad, como servidores proxy, firewalls de filtrado de paquetes y firewalls de última generación que emplean la inteligencia artificial y el aprendizaje automático, lo que ayuda a comparar y analizar la información que intenta ingresar.</p>
+    <h3>Sistemas de detección y prevención de intrusiones (IDPS)</h3>
+    <p>Un sistema de detección y prevención de intrusiones (Intrusion Detection and Prevention System o IDPS), se ejecuta detrás de un firewall para crear un segundo muro de defensa contra los posibles ataques. Trabajando en paralelo con un sistema de detección de intrusiones (IDS) más pasivo, le añade una parada extra al tráfico de red que desea ingresar.</p>
+    <p>También existen IDPS más avanzados para examinar inmediatamente los datos entrantes y activar un proceso automatizado, tal como una alarma, bloquear el tráfico o restablecer la conexión, al detectar una actividad sospechosa.</p>
+    <h3>Software antivirus o antimalware</h3>
+    <p>Los softwares maliciosos o malwares están compuestos por los virus informáticos, gusanos, troyanos, ransomware y spyware. Algunos pueden ingresar y permanecer en una red por días o semanas, por lo que existen programas antimalwares que además de detectarlos, también hacen un seguimiento continuo de los archivos para encontrar las posibles anomalías, eliminar el malware y reparar los daños.</p>
+    <h3>Control de acceso a la red (NAC)</h3>
+    <p>El control de acceso a la red (Network Access Control o NAC), se encuentra en la primera línea de defensa para controlar cualquier acceso a la red. El NAC es utilizado como verificador de estado de cada endpoint, donde examina cualquier dispositivo para comprobar que tiene una protección antivirus adecuada, esté actualizado y tenga las configuraciones correctas antes de ingresar a la red.</p>
+    <p>También se puede programar el NAC para accesos basados en roles, determinando las restricciones de los usuarios autorizados acordes a su perfil, de forma que dentro de la red solo accedan a los archivos aprobados.</p>
+    <h3>Seguridad en la nube</h3>
+    <p>La seguridad en la nube protege todos los recursos en línea: aplicaciones, datos confidenciales, IPs virtuales y servicios. Para hacer esto posible, se necesitan políticas de seguridad sólidas y métodos de seguridad como los firewalls, controles de acceso, la encripción, las redes privadas virtuales (VPN) y los programas de recuperación.</p>
+    <h3>Redes privadas virtuales (VPN)</h3>
+    <p>Una red privada virtual (Virtual Private Network o VPN), oculta la dirección IP y ubicación del usuario, conectándose a un servidor seguro antes de hacerlo directamente al internet.</p>
+    <p>Las VPN son una de las medidas de seguridad más comunes en las empresas y cada vez son más necesarias para las personas que utilizan WiFi público, ya que los protege de hackers que desean robar sus datos.</p>
+    <h3>Prevención de pérdida de datos (DLP)</h3>
+    <p>La prevención de pérdida de datos (Data Loss Prevention o DLP) está compuesta por conjunto de estrategias y herramientas que le garantiza a los usuarios la seguridad de su información confidencial fuera de una red corporativa.</p>
+    <p>Se suele emplear para datos críticos de regulaciones gubernamentales, tales como tarjetas de crédito e información financiera o de salud. Las políticas y el software de DLP supervisan y controlan las actividades de las redes corporativas y en la nube, protege los datos en movimiento y en reposo, aplicando alertas y cifrados.</p>
+    <h3>Protección de puntos finales “endpoints”</h3>
+    <p>La seguridad de puntos finales o endpoints implica un enfoque multicapa de todos los dispositivos cuando se conectan a una red, es decir, cuando decimos punto final es cualquier dispositivo (computadoras portátiles, tabletas, teléfonos inteligentes y otros dispositivos móviles) que reciba una señal. Por lo que esta seguridad se enfoca en proteger aquellos puntos finales de accesos no autorizados y maliciosos.</p>
+    <h3>Gestión unificada de amenazas (UTM)</h3>
+    <p>Unified Threat Management (UTM) o comúnmente conocido como gestión unificada de amenaza, consta de dispositivos capaces de gestionar la protección y supervisión de la red empleando varias herramientas de seguridad informática, como VPN, firewalls, IDS, entre otros.</p>
+    <p>Esta modalidad permite juntar los principales sistemas de seguridad en una sola función y así ejecutar cada uno de ellos desde un solo dispositivo, facilitando la administración de los datos.</p>
+    <h3>Puerta de enlace web segura (SWG)</h3>
+    <p>Las puertas de enlace web seguras (SWG o Secure Web Gateway) incluyen controles de seguridad de las aplicaciones y tecnología de filtrado web, evitando que el tráfico no autorizado entre a la red interna y manteniendo protegidos a los usuarios de virus o diferentes tipos de malware.</p>
+    <p>A través de una estructura de proxy la SWG actúa como intermediaria entre el cliente y el servidor, lo que detiene y emula el tráfico para obtener la protección deseada, creando una nueva conexión de salida independiente del servidor.</p>
+    <h3>Importancia de la seguridad de la red</h3>
+    <p>En el panorama actual, los ciberataques son cada vez más frecuentes y sofisticados. Todo individuo o empresa, por grande o pequeña que sea, está expuesta a actividad maliciosa, desde extorsiones hasta interrupciones en la infraestructura de red que pueden implicar daños en la reputación de una empresa o pérdidas monetarias significativas.</p>
+    <p>Por ello, es indispensable tener una estrategia de ciberseguridad integral, como la que ofrecemos con nuestro complemento de Apolo: CISO as a Service para mantener tus redes y dispositivos seguros y ayudarte en el cumplimiento de certificaciones internacionales.</p>
+    <p>Lograr una buena seguridad de red no es fácil. Primero tienes que elegir cuidar tu privacidad, aunque no hayas experimentado un ciberataque y poco a poco ir integrando rutinas de manteniendo a los equipos, antimalwares, VPN y cualquier medida que sea necesaria.</p>
+    <p>En Delta Protect cuidamos lo más importante: tus datos y reducimos tus vulnerabilidades. Si quieres saber más sobre cómo podemos impulsar la seguridad de tu red, visita nuestra web o agenda una demo de Apolo con nuestros expertos.</p>
+
+
+    </body>
+</html>
